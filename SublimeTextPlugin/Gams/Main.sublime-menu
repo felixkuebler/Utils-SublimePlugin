@@ -1,0 +1,14 @@
+[
+{
+    "id": "tools",
+    "children":
+    [
+        { 
+        "caption": "Run Gams", 
+        "id": "run_gams", 
+        "modifiers": "ctrl+g",
+        "command": "gams", 
+        }
+    ]
+}
+]

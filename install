@@ -1,0 +1,2 @@
+clear && printf '\e[3J'
+cp -R $(dirname "$0")/SublimeTextPlugin/ ~/Library/Application\ Support/Sublime*/Packages  && printf "Installation successful!\nPlugins are now available for usage.\n\nAvailable plugins:\n$(ls $(dirname "$0")/SublimeTextPlugin/)\n\n" || printf "\nInstallation failed!\nYour Sublime Text or Gams installation are not supported.\nPlease install manually.\n\n"
